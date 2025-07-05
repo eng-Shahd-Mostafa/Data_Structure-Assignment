@@ -1,0 +1,97 @@
+# Test Case 1: Typical Case
+5
+3 1 4 2 5
+3 1 5 3.0 15
+
+# Test Case 2: Single Element Array
+1
+10
+10 10 10 10.0 10
+
+# Test Case 3: Empty Array (Edge Case)
+0
+
+# Test Case 4: Array with Duplicate Values
+6
+2 2 2 2 2 2
+2 2 2 2.0 12
+
+# Test Case 5: Negative Numbers
+4
+-3 -1 -2 -4
+-2.5 -4 -1 -2.5 -10
+
+# Test Case 6: Mixed Positive and Negative
+5
+3 -1 4 -2 0
+0 -2 4 0.8 4
+
+# Test Case 7: Alternating Positive and Negative
+6
+-1 1 -2 2 -3 3
+0 -3 3 0.0 0
+
+# Test Case 8: Zeroes Only
+5
+0 0 0 0 0
+0 0 0 0.0 0
+
+# Test Case 9: Increasing Order
+6
+1 2 3 4 5 6
+3.5 1 6 3.5 21
+
+# Test Case 10: Decreasing Order
+6
+6 5 4 3 2 1
+3.5 1 6 3.5 21
+
+# Test Case 11: Two Elements (Even Size)
+2
+99 1
+50.0 1 99 50.0 100
+
+# Test Case 12: Identical Negative Values
+3
+-7 -7 -7
+-7 -7 -7 -7.0 -21
+
+# Test Case 13: Edge Case - Two Identical Elements
+2
+42 42
+42 42 42 42.0 84
+
+# Test Case 14: Minimal Positive and Negative Values
+3
+1 0 -1
+0 0 1 0.0 0
+
+# Test Case 15: Edge Case - Odd Number of Elements
+7
+5 3 7 1 9 2 6
+5 1 9 4.714285714 33
+
+# Test Case 16: Edge Case - Smallest Possible Positive and Negative
+4
+-1 -2 1 2
+0 -2 2 0.0 0
+
+# Test Case 17: Edge Case - Repeated Small Range
+5
+1 2 3 1 2
+2 1 3 1.8 9
+
+# Test Case 18: Floating-Point Numbers (Precision Check)
+4
+1.5 2.5 3.5 4.5
+3.0 1.5 4.5 3.0 12.0
+
+# Test Case 19: Edge Case - Single Negative Element
+1
+-42
+-42 -42 -42 -42.0 -42
+
+# Test Case 20: Edge Case - All Same Positive Number
+5
+8 8 8 8 8
+8 8 8 8.0 40
