@@ -1,5 +1,4 @@
 # Data-Structure-Assignment
-<br>
 
 ## 📖 Overview
 This project is a comprehensive implementation of various data structure concepts using C++. It consists of multiple problems that demonstrate object-oriented programming, dynamic memory allocation, sorting algorithms, linked lists,stack, queue, heap, and statistical calculations. The project adheres to strict memory management practices and does not utilize the STL library.
@@ -18,10 +17,10 @@ The Project is divided into **2 Assignments**:
 
 ### Assignment 2
 
- **🌐 Browser History Simulator** → Implements forward and backward navigation in a web browser using two custom dynamic stacks.  
- **🌲 AVL Tree Implementation** → A self-balancing BST that keeps height minimized after insertions and deletions, using AVL techniques.  
- **🧠 Minimum Bit Flips Problem** → The goal is flip k-length segments in a binary array to make all values 1.  
- **🚨 Emergency Room Queue System** → Simulates a hospital system using a max-heap to prioritize patients by severity and arrival time.
+ **🌐 Browser History Simulator** → Implements forward and backward navigation in a web browser.  
+ **🌲 AVL Tree Implementation** → A self-balancing BST using AVL techniques.  
+ **🧠 Minimum Bit Flips Problem** → Flip k-length segments in a binary array to make all values 1.  
+ **🚨 Emergency Room Queue System** → Hospital system using a max-heap to prioritize patients.
 
 
 ## 🌟 Features 
