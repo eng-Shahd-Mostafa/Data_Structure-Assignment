@@ -1,0 +1,76 @@
+Testcase 1
+
+Order of first polynomial:3
+Enter polynomial:0 3 -2 0 4
+order of second polynomial:4
+Enter polynomial: 0 2 0 0 -1 1
+--------------------------------
+Testcase 2
+
+order of first polynomial:2
+Enter polynomial: 1 5 1 1
+order of second polynomial: 8
+Enter polynomial: 0 80 1 0 0 0 0 1 0 1
+------------------------------------------
+Testcase 3
+
+order of first polynomial:3
+Enter polynomial: 5 0 -5 0 1
+order of second polynomial:7
+Enter polynomial: 0 2 5 0 -1 0 0 0 1
+--------------------------------------
+Testcase 4
+
+order of first polynomial:22
+Enter polynomial: 20 1000 0 0 0 0 10 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7 100
+order of second polynomial: 21
+Enter polynomial: 0 700 0 0 0 0 -5 70 0 0 0 0 0 0 0 0 0 0 0 0 50 0 100
+-------------------------------------------------------------------------
+Testcase 5
+
+order of first polynomial: 15
+Enter polynomial: -6 1 0 2 3 15 0 0 1 0 0 0 0 0 0 1000
+order of second polynomial: 15
+Enter polynomial: 0 5 0 0 5 0 2 8 0 0 0 0 0 0 0 0 -1000
+-------------------------------------------------------------------------
+Testcase 6
+
+order of first polynomial: 2
+Enter polynomial: 2 4 3
+order of second polynomial: 3
+Enter polynomial: 5 -1 0 1
+--------------------------------------
+Testcase 7
+
+order of first polynomial: 5
+Enter polynomial: 9 0 2 34 1 0 0 
+order of second polynomial: 5
+Enter polynomial: 23 0 0 0 0 0 1
+--------------------------------------
+Testcase 8
+
+order of first polynomial: 8
+Enter polynomial: 2 1 1 1 0 0 0 5 2 3
+order of second polynomial: 7
+Enter polynomial: 0 0 0 1 0 2 4 5 5
+---------------------------------------
+Testcase 9
+
+order of first polynomial: 6
+Enter polynomial: 0 0 0 2 3 2 3 6
+order of second polynomial: 3
+Enter polynomial: 0 1 3 2 2
+---------------------------------------
+Testcase 10
+
+Order of first polynomial:4
+Enter polynomial: 2 12 1 4 55 1
+order of second polynomial: 2
+Enter polynomial: 0 0 0 0 
+----------------------------------
+Testcase 11
+
+Order of first polynomial:5
+Enter polynomial: 2 10 0 0 1 5 3 
+order of second polynomial: 2
+Enter polynomial: 0 0 0 1
