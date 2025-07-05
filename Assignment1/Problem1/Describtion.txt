@@ -1,0 +1,70 @@
+                                                      Problem #1: Iftar Invitation Manager
+
+Problem Statement:
+==================
+Fatima loves hosting Iftar gatherings for friends and family. Since she invites different guests on different
+days, she needs a system to track invitations, including the guest’s name, contact details, and the date they’re invited.
+Your task is to create an object-oriented program that:
+
+1. Stores information about each guest invited for Iftar.
+2. Displays a list of all invitations.
+3. Allows Fatima to update the guest list if she adds or removes a guest.
+4. Send a reminder message to guests on a specific date.
+5. Write testcase for each part in the problem
+
+Requirements:
+1. Create a Guest class
+Each guest should have the following attributes:
+● name (string) → The guest’s name (e.g., "Aisha").
+● contact (string) → Their phone number or email.
+● iftar_date (string) → The date they’re invited (e.g., "2025-03-15").
+Include the following methods:
+● display_guest() → Prints guest details.
+● update_invitation(new_date) → Updates the guest’s invitation date.
+
+2. Create an IftarManager class
+This class manages multiple invitations and has:
+● guest_list (list) → A list that stores multiple Guest objects.
+● add_guest(guest) → Adds a new guest. (2 pt)
+● display_all_guests() → Displays all invited guests. (2 pt)
+● update_guest_invitation(name, new_date) → Updates a guest’s invitation date. (2 pt)
+● send_reminder(date) → Sends a reminder message to all guests on a specific date by email. (5 pt)
+● sort_guest_list() → Sort guests by invitation date use any sorting algorithm. (4 pt)
+
+Example Usage: In main() function
+
+# Create Iftar Manager
+manager = IftarManager()
+
+# Add guests
+guest1 = Guest("Aisha", "aisha@example.com", "2025-03-15")
+guest2 = Guest("Omar", "omar@example.com", "2025-03-18")
+guest3 = Guest("Zainab", "zainab@example.com", "2025-03-20")
+manager.add_guest(guest1)
+manager.add_guest(guest2)
+manager.add_guest(guest3)
+
+# Display guest list
+manager.display_all_guests()
+
+# Update invitation date for Omar
+manager.update_guest_invitation("Omar", "2025-03-15")
+
+# Display updated guest lis
+manager.display_all_guests()
+
+# Send reminders
+manager.send_reminders()
+
+Expected Output:
+Guest: Aisha, Contact: aisha@example.com, Iftar Date: 2025-03-15
+Guest: Omar, Contact: omar@example.com, Iftar Date: 2025-03-18
+Guest: Zainab, Contact: zainab@example.com, Iftar Date: 2025-03-20
+Updating invitation for Omar...
+Guest: Aisha, Contact: aisha@example.com, Iftar Date: 2025-03-15
+Guest: Omar, Contact: omar@example.com, Iftar Date: 2025-03-15
+Guest: Zainab, Contact: zainab@example.com, Iftar Date: 2025-03-20
+Sending reminders...
+Reminder sent to Aisha: Your Iftar invitation is on 2025-03-15!
+Reminder sent to Omar: Your Iftar invitation is on 2025-03-15!
+May your Iftar gatherings be full of warmth and blessings!
