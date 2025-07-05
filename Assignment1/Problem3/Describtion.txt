@@ -1,0 +1,39 @@
+                                       Problem #3 - Sorted Linked List
+
+Implement a Sorted Linked List (L) that maintains its elements in sorted order using insertion sort logic. The list should support:
+
+1. Insertion (insert(n)) → Adds n while keeping the list sorted. (4 pt)
+2. Deletion (remove(n)) → Removes the element at index n (0-based index). If n is out of bounds, no changes occur. (4 pt)
+3. Overloaded Operators:
+      ○ Output Operator (<<) → Prints the linked list in a formatted way. (2 pt)
+      ○ Index Operator ([]) → Returns the element at a given index. If out of bounds, an exception is thrown. (2 pt)
+4. Memory Management → Ensure proper deallocation of memory when deleting nodes or destroying the list. (-1 pt if didn’t handle this point)
+5. Write testcase for each part in the problem
+
+Example Test Cases
+Test Case 1: Inserting Elements into the Sorted Linked List
+Operations & Expected Output:
+L.insert(5); // L = [5]
+L.insert(8); // L = [5, 8]
+L.insert(7); // L = [5, 7, 8]
+L.insert(6); // L = [5, 6, 7, 8]
+L.insert(6); // L = [5, 6, 6, 7, 8]
+cout << L; // Output: [5, 6, 6, 7, 8]
+
+Test Case 2: Accessing Elements Using Index Operator
+Operations & Expected Output:
+cout << L[2]; // Output: 6
+cout << L[10]; // Throws out_of_range exception
+
+Test Case 3: Deleting Elements from the Linked List
+Starting List:
+L = [5, 6, 6, 7, 8];
+Operations & Expected Output:
+L.remove(0); // L = [6, 6, 7, 8]
+cout << L; // Output: [6, 6, 7, 8]
+L.remove(100); // No change (out of bounds)
+cout << L; // Output: [6, 6, 7, 8]
+L.remove(2); // L = [6, 6, 8]
+cout << L; // Output: [6, 6, 8]
+L.remove(2); // L = [6, 6]
+cout << L; // Output: [6, 6]
