@@ -1,0 +1,86 @@
+                                            Problem #4 - Sorting Algorithms
+
+Problem Statement:
+The Sorting System is designed to help users sort dynamically allocated data using
+nine different sorting algorithms. It provides an interactive menu for selecting a sorting method,
+supports various data types using templates, and displays each sorting step for better understanding. 
+Additionally, it measures execution time to analyze efficiency.
+
+Requirements:
+1. Sorting Algorithms to Implement:
+    ○ (1) Insertion Sort (4 pt)
+    ○ (2) Selection Sort (4 pt)
+    ○ (3) Bubble Sort (4 pt)
+    ○ (4) Shell Sort (4 pt)
+    ○ (5) Merge Sort (4 pt)
+    ○ (6) Quick Sort (4 pt)
+    ○ (7) Count Sort (only for integers) (4 pt)
+    ○ (8) Radix Sort (only for integers) (4 pt)
+    ○ (9) Bucket Sort (4 pt)
+
+2. Interactive Menu: (5 pt)
+    ○ The program will display a menu listing all nine sorting algorithms and allow the user to select the desired sorting method by entering a number from 1 to 9.
+    ○ The user provides the size of the dataset and enters values dynamically.
+  
+3. Template-Based Implementation: (5 pt)
+    ○ Sorting algorithms should be implemented using templates (T)* to support multiple data types (int, float, double, string, etc.).
+
+4. Sorting Process Display: (9 pt)
+    ○ After every iteration of the sorting algorithm, print the current state of the array to help visualize the sorting process.
+    ○ Use for each algorithm right visualization example for qsort print the selected pivot with array state like the following example
+            Data: 78 34 12 90 50 60
+            Pivot: 60 → [34, 12, 50] 60 [78, 90] Pivot: 12 → [12] 34 50 60 [78, 90] Pivot: 90 → [78] 90
+  
+5. Performance Tracking:
+    ○ Measure and display execution time for each sorting algorithm.
+
+6. Write testcase for each part in the problem
+
+Full Test Case - Sorting System (Selection Sort on Palestinian Cities)
+
+Step 1: User Enters Data Size
+Enter the number of items to sort: 9
+  
+Step 2: User Enters Data to Sort (Palestinian Cities in Arabic Spelling - English Letters)
+Enter data 1: Nablus
+Enter data 2: Gaza
+Enter data 3: Al-Khalil
+Enter data 4: Ramallah
+Enter data 5: Ariha
+Enter data 6: Jenin
+Enter data 7: Tolkarem
+Enter data 8: Al-Quds
+Enter data 9: Yafa
+
+Step 3: Display Sorting Menu
+Select a sorting algorithm:
+1. Insertion Sort
+2. Selection Sort
+3. Bubble Sort
+4. Shell Sort
+5. Merge Sort
+6. Quick Sort
+7. Count Sort (Only for integers)
+8. Radix Sort (Only for integers)
+9. Bucket Sort
+Enter your choice (1-9): 2
+  
+Step 4: Selection Sort Execution (Step by Step)
+Sorting using Selection Sort...
+Initial Data: [Nablus, Gaza, Al-Khalil, Ramallah, Ariha, Jenin, Tolkarem, Al-Quds, Yafa]
+Faculty of Computers and Artificial Intelligence
+Cairo University
+Iteration 1: [Al-Khalil, Gaza, Nablus, Ramallah, Ariha, Jenin, Tolkarem, Al-Quds, Yafa]
+Iteration 2: [Al-Khalil, Al-Quds, Nablus, Ramallah, Ariha, Jenin, Tolkarem, Gaza, Yafa]
+Iteration 3: [Al-Khalil, Al-Quds, Ariha, Ramallah, Nablus, Jenin, Tolkarem, Gaza, Yafa]
+Iteration 4: [Al-Khalil, Al-Quds, Ariha, Gaza, Nablus, Jenin, Tolkarem, Ramallah, Yafa]
+Iteration 5: [Al-Khalil, Al-Quds, Ariha, Gaza, Jenin, Nablus, Tolkarem, Ramallah, Yafa]
+Iteration 6: [Al-Khalil, Al-Quds, Ariha, Gaza, Jenin, Nablus, Tolkarem, Ramallah, Yafa]
+Iteration 7: [Al-Khalil, Al-Quds, Ariha, Gaza, Jenin, Nablus, Ramallah, Tolkarem, Yafa]
+Iteration 8: [Al-Khalil, Al-Quds, Ariha, Gaza, Jenin, Nablus, Ramallah, Tolkarem, Yafa]
+Sorted Data: [Al-Khalil, Al-Quds, Ariha, Gaza, Jenin, Nablus, Ramallah, Tolkarem, Yafa]
+Sorting Time: 0.00018 seconds
+  
+Step 5: Ask User If They Want to Sort Again
+Do you want to sort another dataset? (y/n): n
+Thank you for using the sorting system! Goodbye!

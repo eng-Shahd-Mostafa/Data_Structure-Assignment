@@ -1,0 +1,172 @@
+Integer testcases
+------------------
+test 1:
+
+Number of elements: 6
+dataset:12,34,1,56,32,9
+-----------------------
+test2:
+
+Number of elements: 7
+dataset: 10, 23, 5, 1, 65, 12, 8
+--------------------------------
+test3:
+
+Number of elements: 10
+dataset: 12, 42, 100, 109, 0, 7, 25, 11, 20, 6
+-----------------------------------------------
+test4:
+
+Number of elements: 3
+dataset: 3, 10, 11
+----------------------
+test5:
+
+Number of elements: 5
+dataset: 88, 88, 19, 81, 1
+----------------------------
+test6:
+
+Number of elements: 10
+dataset: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+----------------------------------------
+test7:
+
+Number of elements: 1
+dataset: 34
+-----------------------------------
+test8:
+
+Number of elements: 5
+dataset: -3, -1, -7, -4, -2
+----------------------------
+test9:
+
+Number of elements: 7
+dataset: 1, 2, 3, 4, 5, 6, 7
+------------------------------
+test10:
+
+Number of elements: 10
+dataset: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+
+#########################################
+
+String testcases
+-----------------
+test1:
+
+Number of elements:5
+dataset: DOG, CAT, BIRD, FISH, ELEPHANT
+---------------------------------------
+test2:
+
+Number of elements:4
+dataset: Cat, Caterpillar, Cactus, Car
+----------------------------------------------
+test3:
+
+Number of elements:6
+dataset: Banana, Apple, Cherry, Mango, Grape, Orange
+-----------------------------------------------------
+test4:
+
+Number of elements:5
+dataset: Zebra, Monkey, Lion, Elephant, Tiger
+---------------------------------------------
+test5:
+
+Number of elements: 10
+dataset: One, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten
+-------------------------------------------------------------------
+test6:
+
+Number of elements:7
+dataset: Python, Java, C++, JavaScript, Ruby, Swift, Kotlin
+-------------------------------------------------------------------
+test7:
+
+Number of elements:4
+dataset: Coffee, Tea, Juice, Milk
+
+#######################################
+Double testcases
+-----------------
+test1:
+
+Number of elements:5
+dataset: 1.1, 2.2, 3.3, 4.4, 5.5
+---------------------------------
+test2:
+
+Number of elements:4
+dataset: -10.5, 0.0, 20.75, 15.3
+---------------------------------
+test3:
+
+Number of elements:6
+dataset: 99.99, 55.55, 77.77, 22.22, 44.44, 88.88
+--------------------------------------------------
+test4:
+
+Number of elements: 3
+dataset: 0.1, 0.01, 0.001
+---------------------------
+test5:
+
+Number of elements:7
+dataset: 3.1, 2.2, 1.6, 0.5, 4.6, 6.62, 9.81
+---------------------------------------------
+test6:
+
+Number of elements: 10
+dataset: 10.1, 9.9, 8.8, 7.7, 6.6, 5.5, 4.4, 3.3, 2.2, 1.1
+-----------------------------------------------------------
+test7:
+
+Number of elements:7
+dataset: 0.0, 1.1, 2.2, 3.3, 4.4, 5.5, 6.6
+-------------------------------------------
+test8:
+
+Number of elements: 1
+dataset: 1.0
+
+###################################
+Char testcases
+---------------
+test1:
+
+Number of elements: 2
+dataset: G , E
+-------------------
+test2:
+
+Number of elements: 5
+dataset: A, B, C, D, E
+------------------------
+test3:
+
+Number of elements: 6
+dataset: P, Q, R, S, T, U
+------------------------
+test4:
+
+Number of elements: 3
+dataset: m, n, o
+------------------------
+test5:
+
+Number of elements: 7
+dataset: a, e, i, o, u, y, w
+------------------------------
+test6: 
+
+
+Number of elements: 6
+dataset: g, G, h, H, i, I
+--------------------------
+test7:
+
+Number of elements: 4
+dataset: Z, Y, X, W
